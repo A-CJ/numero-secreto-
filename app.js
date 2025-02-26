@@ -1,4 +1,4 @@
-let limiteNumero = 10;
+let limiteNumero = 1000;
 let listaDeNumerosSorteados = [];
 let numeroSecreto = geradorNumeroSecreto();
 let tentativas = 1;
@@ -17,7 +17,7 @@ function mensagemInicial(Tag, Texto) {
 }
 function exibirMensagem() {
 mensagemInicial("h1", "Jogo do Número Secreto");
-mensagemInicial("p", "Escolha um número de 1 a 10");
+mensagemInicial("p", "Escolha um número de 1 a 1000");
 }
 exibirMensagem();
 
